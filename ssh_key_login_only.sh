@@ -1,5 +1,5 @@
 #!  /bin/bash
-#A script to disable ssh password login in and enable key login. 
+#A script to disable ssh password login  and enable key login. 
 #Warning you should copy your public key to your server before execute this script 
 #and restart sshd service ,  or you will lose control of your server.
 #ssh-copy-id -i $key_path -p $port root@$ip
